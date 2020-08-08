@@ -21,7 +21,7 @@ class FetchCustomersDataFromStripeApi extends Command
         $this->info('Fetching Stripe customers ...');
 
         $customers = $stripe->customers->all([
-            config('dashboard.tiles.stripe.customers.params') ?? []
+            config('dashboard.tiles.stripe.customers.params') ?? [],
         ]);
 
         $customers = collect($customers->data)
