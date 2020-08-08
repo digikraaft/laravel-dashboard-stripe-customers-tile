@@ -4,8 +4,8 @@
     "keywords": [
         "digikraaft",
         "laravel-dashboard",
-        "paystack-dashboard",
-        "paystack"
+        "stripe-dashboard",
+        "stripe"
     ],
     "homepage": "https://github.com/digikraaft/laravel-dashboard-stripe-customers-tile",
     "license": "MIT",
