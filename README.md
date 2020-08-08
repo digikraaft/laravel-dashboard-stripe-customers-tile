@@ -20,6 +20,7 @@ In the `dashboard` config file, you can optionally add this configuration in the
 ```
 // in config/dashboard.php
 'tiles' => [
+
         /**
          * Stripe configuration settings
          */
@@ -28,6 +29,7 @@ In the `dashboard` config file, you can optionally add this configuration in the
             'secret_key' => env('STRIPE_SECRET'),
 
             'customers' => [
+
                 /**
                  * the values here must be supported by the Stripe API
                  * @link https://stripe.com/docs/api/customers/list?lang=php
