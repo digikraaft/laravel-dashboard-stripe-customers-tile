@@ -19,6 +19,7 @@ You need to publish the migrations and config file of the [Laravel Dashboard](ht
 In the `dashboard` config file, you can optionally add this configuration in the tiles key and customize it for your own needs:
 ```
 // in config/dashboard.php
+
 'tiles' => [
 
         /**
