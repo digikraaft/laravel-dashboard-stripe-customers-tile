@@ -14,7 +14,7 @@
                 <li class="py-1">
                     <div class="my-2">
                         <div class="font-bold">
-                            ID: <a href="https://dashboard.paystack.com/#/customers/{{ $customer['customer_id'] }}" target="_blank">
+                            ID: <a href="https://dashboard.stripe.com/customers/{{ $customer['customer_id'] }}" target="_blank">
                                 {{ $customer['customer_id'] }}
                             </a>
                         </div>
